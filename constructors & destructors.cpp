@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//a class constructors are called whenever we create objects from that class
+//a class destructors are called whenever every object of that class destroyed and when program ends (desctructives called backwards in program)
 class student {
 public:
     string name;
